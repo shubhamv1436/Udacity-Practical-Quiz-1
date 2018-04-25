@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UdacityQuiz1</string>
+
+    <string name="name_hint">Enter your name</string>
+    <string name="email_hint">android@test.com</string>
+    <string name="about_hint">I am the best android developer in the city</string>
+    <string name="next_button">Next</string>
+
+    <string name="name">Shubham Vaishnav</string>
+    <string name="email">shubham@android.com</string>
+    <string name="about">I am an Android developer who loves coding. In free time I do yoga and running.</string>
+
+    <string name="name_key">name</string>
+    <string name="email_key">email</string>
+    <string name="about_key">about</string>
+
+</resources>

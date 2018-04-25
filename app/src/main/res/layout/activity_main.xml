@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.udacityquiz1.MainActivity"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/tower">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        android:layout_above="@+id/et_email" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="text"
+        android:layout_marginTop="12dp"
+        android:layout_centerVertical="true"/>
+
+    <EditText
+        android:id="@+id/et_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/about_hint"
+        android:layout_below="@+id/et_email"
+        android:inputType="textMultiLine"
+        android:layout_marginTop= "12dp"
+        android:layout_marginBottom="12dp"
+        android:maxLength="200"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:layout_below="@+id/et_about"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg"
+        android:onClick="submit"/>
+
+
+</RelativeLayout>
